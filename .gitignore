@@ -1,3 +1,21 @@
+# ── NBA CVI Project — data files ──────────────────────────
+# CSV files are gitignored due to size
+# Run notebooks 01-03 in order to regenerate from scratch
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.json
+data/processed/*.json
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+
+# Mac system files
+.DS_Store
+.AppleDouble
+# ───────────────────────────────────────────────────────────
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
