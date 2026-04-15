@@ -1,7 +1,7 @@
-dash==2.14.0
-dash-bootstrap-components==1.5.0
-plotly==5.18.0
-pandas==2.0.3
-numpy==1.24.4
-anthropic==0.20.0
-gunicorn==21.2.0
+dash>=2.14.0
+dash-bootstrap-components>=1.5.0
+plotly>=5.18.0
+pandas>=2.0.3
+numpy>=1.24.0
+anthropic>=0.20.0
+gunicorn>=21.2.0
