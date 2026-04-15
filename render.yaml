@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nba-cvi
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app_v2:server --bind 0.0.0.0:$PORT

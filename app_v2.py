@@ -156,7 +156,7 @@ app = dash.Dash(
     title="NBA CVI — Contract Value Index",
     suppress_callback_exceptions=True,
 )
-
+server = app.server  # ← add this line
 app.index_string = '''<!DOCTYPE html>
 <html><head>
     {%metas%}<title>{%title%}</title>{%favicon%}{%css%}
