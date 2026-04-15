@@ -150,3 +150,6 @@ nba-cvi-model/
 Built by Troy Hendrickson — NBA analytics + machine learning portfolio project.
 
 Connect: [[LinkedIn](https://www.linkedin.com/in/troy-hendrickson/)] 
+
+## Live Demo
+🏀 **[View the live app →](https://your-render-url.onrender.com)**
