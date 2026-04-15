@@ -10,9 +10,11 @@ import dash
 from dash import dcc, html, Input, Output, State
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
+import os
 
 # ── Data ──────────────────────────────────────────────────────────────────────
-DATA_PATH = "/Users/fis/Desktop/data/processed/master_scored.csv"
+BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "data", "processed", "master_scored.csv")
 df        = pd.read_csv(DATA_PATH)
 current   = df[df["SEASON"] == "2025-26"].copy()
 current   = current[current["SALARY_M"].notna()].copy()
