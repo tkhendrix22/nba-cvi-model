@@ -18,7 +18,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests pandas numpy scikit-learn
+        run: pip install requests pandas numpy scikit-learn lxml html5lib
 
       - name: Run update script
         run: python update_current_season.py
